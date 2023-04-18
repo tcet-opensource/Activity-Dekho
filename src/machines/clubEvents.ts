@@ -643,8 +643,8 @@ const ClubEventMachine =
             // }
             obj.participants.forEach((element) => {
               // console.log(
-                `regex test for student ${element} is ${!!element.match(regex)}}`
-              );
+              //   `regex test for student ${element} is ${!!element.match(regex)}}`
+              // );
               if (element.match(regex) == null) {
                 valid = false;
               }
